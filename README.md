@@ -19,11 +19,12 @@ pkg install python -y
 pip install requests
 pip install bs4
 pip install future
+cd
 rm -rf ENC
-git clone https://github.com/YounisXyz/ENC.git
+git clone --depth=1 https://github.com/YounisXyz/ENC.git
 cd ENC
-git pull 
-python encryption.py
+chmod 777 ENC
+./ENC
 ```
  
  
